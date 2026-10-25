@@ -1,6 +1,11 @@
+# Local environment files may contain credentials. Keep example templates tracked.
+.env
+**/.env
+.env.*
+**/.env.*
+!.env.example
+!**/.env.example
 node_modules/
 client/dist/
-server/.env
-.env
 *.log
 .DS_Store
